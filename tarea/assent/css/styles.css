@@ -1,0 +1,234 @@
+/*Cuerpo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*----------------------------------------------------------------------*/
+.contedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #00A8CC;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+     /*-----------------FONDO DE COLOR EXTRAIDO DE PAGINA--------------*/
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c5364ad, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c536496, #203A43, #0f2027d0), url(../img/computadoras.jpg) ; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*--------------------------------------------------*/
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+/*MENU*/
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: aliceblue;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+/*----------------------------------------------*/
+/*inicio*/
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.textos-header h2{
+    font-size: 25px;
+    font-weight: 300;
+    color: azure;
+}
+/*----------------------------------------*/
+.wave{
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+.contedor-textos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.computadoras1{
+    width: 100%;
+    height: auto;
+
+}
+/*Imagen del contenido*/
+
+.contenido-texto{
+    width: 48%;
+}
+
+.contenido-texto h3{
+    margin-bottom: 15px;
+}
+
+.contenido-texto p{
+    color: #0f0f0f;
+    padding: 0px 0px 30px 15px;
+}
+
+/*final de la pagina*/
+.final{
+    background-color: #142850;
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    
+}
+.final p{
+    color: aliceblue;
+}
+
+
+
+
+
+/* contactos*/
+
+#left{
+    width: 90%;
+    max-width: 500px;
+    height: 50%;
+    float: right;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    padding: 4em 4em;
+    text-align: center;
+}
+#rigth{
+    width: 90%;
+    max-width: 400px;
+    height: 50%;
+    float: right;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    padding: 4em 4em;
+    text-align: center;
+}
+/*izquierda*/
+#left h3, p{
+    color: #27496D;
+    margin-bottom: 2px;
+}
+
+#left p{
+text-align: justify;
+
+}
+/*derecha*/
+#rigth h3, p{
+    color: #27496D;
+    
+}
+
+#rigth p{
+    margin: 50px;
+}
+
+.form-label{
+    text-align: center;
+}
+
+.form-tittle{
+    font-size: 2rem;
+    margin-bottom: 5em;
+}
+.form-container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.form-group{
+    position: relative;
+    color: #0f0f0f;
+}
+/*ingreso de datos*/
+.form-input{
+    width: 100%;
+    background: none;
+    color: #0f0f0f;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'roboto', sans-serif;
+}
+
+.form-label{
+    color: var(--color);
+    cursor: pointer;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+
+/*boton enter*/
+.form-submit{
+    background: #00A8CC;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+}
+
+.form-line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #00A8CC;
+}
