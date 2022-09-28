@@ -90,15 +90,16 @@ width: 100%;
     justify-content: space-evenly;
 }
 
-.computadoras1{
-    width: 100%;
+.compu-imagen{
+    width: 50%;
     height: auto;
+    margin: 30px;
 
 }
 /*Imagen del contenido*/
 
 .contenido-texto{
-    width: 48%;
+    width: 40%;
 }
 
 .contenido-texto h3{
@@ -107,7 +108,7 @@ width: 100%;
 
 .contenido-texto p{
     color: #0f0f0f;
-    padding: 0px 0px 30px 15px;
+    padding: 0px 10px 30px 15px;
 }
 
 /*final de la pagina*/
